@@ -1,0 +1,5 @@
+metric,baseline_prompt,ricce_prompt
+total_reviews,15,15
+correct_answers,0,13
+errors,15,2
+invalid_format,1,0

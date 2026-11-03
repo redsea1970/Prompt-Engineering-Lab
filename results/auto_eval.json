@@ -1,0 +1,380 @@
+{
+  "baseline": {
+    "accuracy": 0.9,
+    "avg_answer_len": 16.6,
+    "details": [
+      {
+        "id": 1,
+        "expected": "def",
+        "answer": "def my_func(): pass",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "expected": "=",
+        "answer": "x = 10",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "expected": "git branch",
+        "answer": "git branch feature",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "expected": "git commit",
+        "answer": "git commit -m 'msg'",
+        "correct": true
+      },
+      {
+        "id": 5,
+        "expected": "docker build",
+        "answer": "docker build -t app .",
+        "correct": true
+      },
+      {
+        "id": 6,
+        "expected": "docker run",
+        "answer": "docker run app",
+        "correct": true
+      },
+      {
+        "id": 7,
+        "expected": "try",
+        "answer": "try:\n    pass\nexcept Exception:\n    pass",
+        "correct": true
+      },
+      {
+        "id": 8,
+        "expected": "open",
+        "answer": "open('file.txt', 'r')",
+        "correct": true
+      },
+      {
+        "id": 9,
+        "expected": "[",
+        "answer": "[]",
+        "correct": true
+      },
+      {
+        "id": 10,
+        "expected": "append",
+        "answer": "[]",
+        "correct": false
+      },
+      {
+        "id": 11,
+        "expected": "git push",
+        "answer": "git push origin main",
+        "correct": true
+      },
+      {
+        "id": 12,
+        "expected": "git clone",
+        "answer": "git clone <url>",
+        "correct": true
+      },
+      {
+        "id": 13,
+        "expected": "FROM",
+        "answer": "FROM python:3.11",
+        "correct": true
+      },
+      {
+        "id": 14,
+        "expected": "COPY",
+        "answer": "COPY . .",
+        "correct": true
+      },
+      {
+        "id": 15,
+        "expected": "RUN",
+        "answer": "RUN pip install -r requirements.txt",
+        "correct": true
+      },
+      {
+        "id": 16,
+        "expected": "return",
+        "answer": "def my_func(): pass",
+        "correct": false
+      },
+      {
+        "id": 17,
+        "expected": "for",
+        "answer": "for i in range(10): pass",
+        "correct": true
+      },
+      {
+        "id": 18,
+        "expected": "if",
+        "answer": "if x > 0: pass",
+        "correct": true
+      },
+      {
+        "id": 19,
+        "expected": "+",
+        "answer": "'a' + 'b'",
+        "correct": true
+      },
+      {
+        "id": 20,
+        "expected": "import",
+        "answer": "import os",
+        "correct": true
+      }
+    ]
+  },
+  "ricce": {
+    "accuracy": 0.9,
+    "avg_answer_len": 16.6,
+    "details": [
+      {
+        "id": 1,
+        "expected": "def",
+        "answer": "def my_func(): pass",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "expected": "=",
+        "answer": "x = 10",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "expected": "git branch",
+        "answer": "git branch feature",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "expected": "git commit",
+        "answer": "git commit -m 'msg'",
+        "correct": true
+      },
+      {
+        "id": 5,
+        "expected": "docker build",
+        "answer": "docker build -t app .",
+        "correct": true
+      },
+      {
+        "id": 6,
+        "expected": "docker run",
+        "answer": "docker run app",
+        "correct": true
+      },
+      {
+        "id": 7,
+        "expected": "try",
+        "answer": "try:\n    pass\nexcept Exception:\n    pass",
+        "correct": true
+      },
+      {
+        "id": 8,
+        "expected": "open",
+        "answer": "open('file.txt', 'r')",
+        "correct": true
+      },
+      {
+        "id": 9,
+        "expected": "[",
+        "answer": "[]",
+        "correct": true
+      },
+      {
+        "id": 10,
+        "expected": "append",
+        "answer": "[]",
+        "correct": false
+      },
+      {
+        "id": 11,
+        "expected": "git push",
+        "answer": "git push origin main",
+        "correct": true
+      },
+      {
+        "id": 12,
+        "expected": "git clone",
+        "answer": "git clone <url>",
+        "correct": true
+      },
+      {
+        "id": 13,
+        "expected": "FROM",
+        "answer": "FROM python:3.11",
+        "correct": true
+      },
+      {
+        "id": 14,
+        "expected": "COPY",
+        "answer": "COPY . .",
+        "correct": true
+      },
+      {
+        "id": 15,
+        "expected": "RUN",
+        "answer": "RUN pip install -r requirements.txt",
+        "correct": true
+      },
+      {
+        "id": 16,
+        "expected": "return",
+        "answer": "def my_func(): pass",
+        "correct": false
+      },
+      {
+        "id": 17,
+        "expected": "for",
+        "answer": "for i in range(10): pass",
+        "correct": true
+      },
+      {
+        "id": 18,
+        "expected": "if",
+        "answer": "if x > 0: pass",
+        "correct": true
+      },
+      {
+        "id": 19,
+        "expected": "+",
+        "answer": "'a' + 'b'",
+        "correct": true
+      },
+      {
+        "id": 20,
+        "expected": "import",
+        "answer": "import os",
+        "correct": true
+      }
+    ]
+  },
+  "few_shot": {
+    "accuracy": 0.1,
+    "avg_answer_len": 7.3,
+    "details": [
+      {
+        "id": 1,
+        "expected": "def",
+        "answer": "def my_func(): pass",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "expected": "=",
+        "answer": "x = 10",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "expected": "git branch",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "expected": "git commit",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 5,
+        "expected": "docker build",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 6,
+        "expected": "docker run",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 7,
+        "expected": "try",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 8,
+        "expected": "open",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 9,
+        "expected": "[",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 10,
+        "expected": "append",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 11,
+        "expected": "git push",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 12,
+        "expected": "git clone",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 13,
+        "expected": "FROM",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 14,
+        "expected": "COPY",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 15,
+        "expected": "RUN",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 16,
+        "expected": "return",
+        "answer": "def my_func(): pass",
+        "correct": false
+      },
+      {
+        "id": 17,
+        "expected": "for",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 18,
+        "expected": "if",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 19,
+        "expected": "+",
+        "answer": "x = 10",
+        "correct": false
+      },
+      {
+        "id": 20,
+        "expected": "import",
+        "answer": "x = 10",
+        "correct": false
+      }
+    ]
+  }
+}
